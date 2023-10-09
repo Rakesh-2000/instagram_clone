@@ -4,7 +4,7 @@ import AddPost from './src/screens/AddPost'
 import HomeScreen from './src/screens/HomeScreen'
 
 const App = () => {
-  return <SignInStack />
+  return <HomeScreen />
 }
 
 export default App

@@ -34,7 +34,7 @@ const PostHeader = ({ post }) => {
         }}>
             <View style={{}}>
                 <View style={{ flexDirection: "row", alignItems: "center", }}>
-                    <Image source={post.profile_pic} style={styles.postImage} ></Image>
+                    <Image source={{ uri: post.profile_pic }} style={styles.postImage} ></Image>
                     <Text style={{ color: "#fff" }}>{post.user}</Text>
                 </View>
             </View>
@@ -68,7 +68,7 @@ const Footer = () => {
 const PostImage = ({ post }) => {
     return (
         <View style={{ width: "100%", height: 450 }}>
-            <Image source={post.imageUrl} style={{ height: "100%", resizeMode: "cover" }}></Image>
+            <Image source={{ uri: post.imageUrl }} style={{ height: "100%", resizeMode: "cover" }}></Image>
         </View>
     )
 }
