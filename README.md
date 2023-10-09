@@ -1,6 +1,6 @@
 Screens : 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/Rakesh-2000/instagram_clone/blob/main/homeScreen.png" alt="Screenshot 2" style="width: 300px; padding-right:10px"/>
+  <img src="https://github.com/Rakesh-2000/instagram_clone/blob/main/homeScreen.png" alt="Screenshot 2" style="width: 300px; margin-right:10px"/>
   <img src="https://github.com/Rakesh-2000/instagram_clone/blob/main/Home.png" alt="Screenshot 1" style="width: 300px;"/>
 </div>
 
